@@ -1457,7 +1457,7 @@
 				<key>boot-args</key>
 				<string>-v keepsyms=1 debug=0x100 applbkl=1</string>
 				<key>csr-active-config</key>
-				<data>AQAAAA==</data>
+				<data>AwAAAA==</data>
 				<key>prev-lang:kbd</key>
 				<string>en-US:0</string>
 				<key>run-efi-updater</key>
