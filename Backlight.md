@@ -32,6 +32,6 @@ Eco Mode Off  |  Eco Mode On  |  Changed Offset
 
 ## Linux Compatibility
 
-The same keyboard backlight issue exists on Linux distros for this laptop. Fortunately, since OpenCore injects SSDTs into all operating systems, the custom SSDTs also resolve the issue on Linux.
+The same keyboard backlight issue exists on Linux distros for this laptop. Fortunately, since OpenCore injects SSDTs into all operating systems, this custom SSDT also resolves the issue on Linux.
 
 ![](https://github.com/user-attachments/assets/ccea4b81-0f01-45a3-823e-cce86cffbb36)
