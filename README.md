@@ -1,6 +1,6 @@
-<img src="https://github.com/user-attachments/assets/34ec8fe4-999e-44d2-b940-0c5df1404cf1" width="488" height="343">
+<img src="https://github.com/user-attachments/assets/34ec8fe4-999e-44d2-b940-0c5df1404cf1" width="497" height="349">
 
-[![](https://img.shields.io/badge/Bootloader-OpenCore_1.0.1_DEBUG-blue)](https://github.com/acidanthera/OpenCorePkg/releases/tag/1.0.1) [![](https://img.shields.io/badge/macOS-Sierra%2010.12.6-red)](http://updates-http.cdn-apple.com/2019/cert/061-39476-20191023-48f365f4-0015-4c41-9f44-39d3d2aca067/InstallOS.dmg) [![](https://img.shields.io/badge/Qosmio-X775--3DV78-brown)](https://support.dynabook.com/support/staticContentDetail?contentId=3044152&isFromTOCLink=false)
+[![](https://img.shields.io/badge/Bootloader-OpenCore_1.0.1_RELEASE-blue)](https://github.com/acidanthera/OpenCorePkg/releases/tag/1.0.1) [![](https://img.shields.io/badge/macOS-Sierra%2010.12.6-red)](http://updates-http.cdn-apple.com/2019/cert/061-39476-20191023-48f365f4-0015-4c41-9f44-39d3d2aca067/InstallOS.dmg) [![](https://img.shields.io/badge/Qosmio-X775--3DV78-brown)](https://support.dynabook.com/support/staticContentDetail?contentId=3044152&isFromTOCLink=false)
 
 # Please Note
 
@@ -78,3 +78,4 @@ Don't disconnect the primary hard drive ribbon cable from the laptop's motherboa
 | Trackpad gestures are sluggish. | Unsure if this can be fixed. You'll also notice that accessing the trackpad settings within "System Preferences" results in a crash. This is caused by some sort of macOS bug related to the Fermi GPU framebuffer. Disabling GPU acceleration (via the nv_disable=1 boot-arg) seems to fix it.
 | Disable ringFreqTables kernel patch doesn't work above macOS Sierra or on macOS installers. | Either need to tweak the config.plist file or write a Lilu plugin. |
 | Boot picker screen resolution is less than 1080p. | Requires modifying the VESA tables of the GPU, but unsure where the VBIOS is stored or how to flash it. Upgrading the GPU entirely would also likely resolve this issue and is a more preferred solution. |
+| Boot picker cursor responsiveness is choppy. | I’m not sure what’s causing this issue. If you want to hide the cursor, you can do so by opening the config.plist and setting the "PickerAttributes" value to 0. |
