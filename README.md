@@ -19,7 +19,7 @@ DummyPowerManagement has been enabled by default in order to reach the macOS ins
 USB 3.0 doesn't work right out of the box. This can be fixed by installing a modified version of AppleUSBXHCI.kext from macOS Yosemite. Until the binary patches for this kext are discovered for macOS Sierra, the following steps can be used to enable the port.
 1. [Create an account on InsanelyMac](https://www.insanelymac.com/forum/register/) if you don't already have one.
 2. Download AppleUSBXHCI v710.4.11 (10.10.5).zip from [here](https://www.insanelymac.com/forum/files/file/150-patched-appleusbxhci/)
-3. Open Finder and go to `/System/Library/Extensions/IOUSBHostFamily.kext/Contents/PlugIns`
+3. Open Finder and go to<br>`/System/Library/Extensions/IOUSBHostFamily.kext/Contents/PlugIns`
 4. Rename AppleUSBXHCI.kext to AppleUSBXHCI.kext.bak
 5. Open the downloaded zip file, and place the extracted AppleUSBXHCI.kext in the same directory.
 6. [Download Kext Utility](https://cvad-mac.narod.ru/files/Kext_Utility.app.v2.6.6.zip) and run it to automatically repair permissions and update the system cache files.
@@ -63,13 +63,15 @@ Don't disconnect the primary hard drive ribbon cable from the laptop's motherboa
 | CPU | Intel Core i7-2860QM |
 | GPU | NVIDIA GeForce GTX 560M |
 | Display | Samsung SEC5044-173HT02-T01 |
-| Chipset | Intel HM65 |
-| Memory | 2x - Corsair CMSO8GX3M1A1333C9 |
-| Wi-Fi | AzureWave AW-CE123H |
+| Chipset | Intel HM65 Express Chipset |
+| Memory | 2x - CORSAIR ValueSelect<br>8GB DDR3 1333MHz |
+| USB | NEC/Renesas uPD720200A<br>Intel 6 Series Chipset |
+| WiFi/BT | Qualcomm Atheros AR9285/AR3011<br>Broadcom BCM94352HMB/BCM20702A3 |
 | LAN | Realtek RTL8111 |
 | Audio | Realtek ALC269VB |
+| Keyboard | DARFON NSK-TQ2BC on PS/2 |
 | Trackpad | Synaptics TouchPad V7.4 on PS/2 |
-| Card Reader | JMicron JMB38X |
+| Card Reader | JMicron JMB38X SD/MMC Host Controller|
 
 # Issues
 | | |
