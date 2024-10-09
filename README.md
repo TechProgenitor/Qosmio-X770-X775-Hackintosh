@@ -1,6 +1,6 @@
 <img src="https://github.com/user-attachments/assets/34ec8fe4-999e-44d2-b940-0c5df1404cf1" width="497" height="349">
 
-[![](https://img.shields.io/badge/Bootloader-OpenCore_1.0.1_RELEASE-blue)](https://github.com/acidanthera/OpenCorePkg/releases/tag/1.0.1) [![](https://img.shields.io/badge/macOS-Sierra%2010.12.6-red)](http://updates-http.cdn-apple.com/2019/cert/061-39476-20191023-48f365f4-0015-4c41-9f44-39d3d2aca067/InstallOS.dmg) [![](https://img.shields.io/badge/Qosmio-X775--3DV78-brown)](https://support.dynabook.com/support/staticContentDetail?contentId=3044152&isFromTOCLink=false)
+[![](https://img.shields.io/badge/Bootloader-OpenCore_1.0.2_RELEASE-blue)](https://github.com/acidanthera/OpenCorePkg/releases/tag/1.0.2) [![](https://img.shields.io/badge/macOS-Sierra%2010.12.6-red)](http://updates-http.cdn-apple.com/2019/cert/061-39476-20191023-48f365f4-0015-4c41-9f44-39d3d2aca067/InstallOS.dmg) [![](https://img.shields.io/badge/Qosmio-X775--3DV78-brown)](https://support.dynabook.com/support/staticContentDetail?contentId=3044152&isFromTOCLink=false)
 
 # Please Note
 
